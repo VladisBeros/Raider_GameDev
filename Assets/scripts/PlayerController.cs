@@ -63,5 +63,6 @@ public class PlayerController : MonoBehaviour
     void CheckingGround()
     {
         onGround = Physics2D.OverlapCircle(GroundCheck.position, checkRadius, Ground);
+        anim.SetBool("onGround", onGround);
     }
 }

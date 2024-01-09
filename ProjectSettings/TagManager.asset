@@ -11,6 +11,8 @@ TagManager:
   - 
   - Water
   - UI
+  - Hero
+  - Enemy
   - Ground
   - 
   - 
@@ -35,15 +37,31 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
   m_SortingLayers:
-  - name: Background
+  - name: ForestBack
+    uniqueID: 2589533439
+    locked: 0
+  - name: Forest
     uniqueID: 4125607433
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: UI
+  - name: Building
+    uniqueID: 3842030443
+    locked: 0
+  - name: Forniture
+    uniqueID: 4169793581
+    locked: 0
+  - name: NPC
+    uniqueID: 864352885
+    locked: 0
+  - name: Character
     uniqueID: 1514520725
+    locked: 0
+  - name: Fire
+    uniqueID: 1018108139
+    locked: 0
+  - name: Ground
+    uniqueID: 2992840497
     locked: 0

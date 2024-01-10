@@ -5,11 +5,13 @@ using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
+    public static Health Instance { get; set; }
+
     [SerializeField] private Image[] hearts;
     [SerializeField] private Sprite aliveHeart;
     [SerializeField] private Sprite deadHeart;
 
-    public int maxHealth = 3;
+    public int maxHealth = 5;
     int currentHealth;
 
     void Start()

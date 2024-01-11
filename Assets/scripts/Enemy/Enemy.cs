@@ -9,6 +9,8 @@ public class Enemy : MonoBehaviour
     public int maxHealth = 100;
     int currentHealth;
 
+    public GameObject slime;
+
     void Start()
     {
         currentHealth = maxHealth;
@@ -32,7 +34,10 @@ public class Enemy : MonoBehaviour
 
         animator.SetBool("IsDead", true);
 
+        Destroy(slime);
+        /*
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
+        */
     }
 }
